@@ -1,0 +1,57 @@
+body {
+    background-image: url('cover.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width: 1920px;
+}
+
+h1 {
+    text-align: center;
+    color: azure;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 60px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.67);
+}
+
+.cal {
+    background-color: rgba(104, 104, 104, 0.45);
+    width: 380px;
+    margin: auto;
+    min-height: 450px;
+    box-shadow: 0 8px 50px -7px black;
+    border: 2px inset azure;
+}
+
+.calbody {
+    display: table;
+}
+
+.display-box {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: slategrey;
+    border: none;
+    color: white;
+    width: 99%;
+    height: 100px;
+    font-size: 45px;
+    text-align: right;
+}
+
+.calbody input[type=button] {
+    width: 95px;
+    display: table-cell;
+    height: 87px;
+    background: rgba(255, 255, 255, 0);
+    border: 0.1px solid rgba(255, 255, 255, 0.301);
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+}
+
+.calbody input:hover[type=button] {
+    background: rgba(227, 227, 227, 0.30);
+}
+
+.calbody input:active[type=button] {
+    background: rgba(55, 55, 55, 0.45);
+}
